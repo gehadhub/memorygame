@@ -64,15 +64,11 @@ h1 {
   border-radius: 12px;
   backface-visibility: hidden;
 }
-
-
 .card-front {
   background-image: url("images/farm.jpg");
   background-size: cover;
   background-position: center;
 }
-
-/* The front image (animal picture) */
 .card-back {
   transform: rotateY(180deg);
   background-color: white;
@@ -80,7 +76,6 @@ h1 {
   align-items: center;
   justify-content: center;
 }
-
 .card-back img {
   max-width: 100%;
   max-height: 100%;
