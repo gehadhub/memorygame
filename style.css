@@ -91,7 +91,7 @@ h1 {
   border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   #game-board {
     max-width: 500px;
     gap: 12px;
@@ -101,9 +101,9 @@ h1 {
     font-size: 2.2rem;
     padding: 8px 16px;
   }
-}
+} */
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   #game-board {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
     gap: 10px;
